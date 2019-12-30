@@ -17,11 +17,26 @@ body {
 }
 
 #header-bg {
-    background: url('/WP-Theme/header-bg.jpg');
+    background: url('/WP-Theme/images/header-bg.jpg');
     background-size: cover;
     height: 400px;
 }
 
 #nav-header {
     margin-left: 2rem!important;
+}
+
+#selfie-image {
+    height: 200px;
+    size: cover;
+}
+
+li {
+    list-style-type: none;
+}
+
+@media (max-width: 750px) {
+    body {
+        font-size: 14px;
+    }
 }
