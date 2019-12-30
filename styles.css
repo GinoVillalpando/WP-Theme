@@ -7,6 +7,22 @@ body {
     display: inline-block;
     padding: 1rem;
     position: relative;
-    top: 10%;
+    top: 50%;
+    bottom: 50%;
     overflow-x: hidden;
+    margin-right: 2rem!important;
+}
+
+.bg-dark {
+    background-color: black!important;
+}
+
+.header-bg {
+    background: url'header-bg.jpg';
+    background-size: cover;
+    height: 300px;
+}
+
+#nav-header {
+    margin-left: 2rem!important;
 }
