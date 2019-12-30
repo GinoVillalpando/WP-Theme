@@ -17,7 +17,7 @@ body {
 }
 
 #header-bg {
-    background: url('/WP-Theme/images/header-bg.jpg');
+    background: url('/WP-Theme/images/header-bg.jpg')no-repeat center center fixed;
     background-size: cover;
     height: 400px;
 }
@@ -39,4 +39,9 @@ li {
     body {
         font-size: 14px;
     }
+}
+
+.display-1 {
+    position: relative!important;
+    top: 25%!important;
 }
