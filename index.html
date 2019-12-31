@@ -32,17 +32,25 @@
 <body>
 
     <!-- navbar and header of theme -->
-    <nav class="navbar navbar-dark bg-dark" id="nav-list">
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark" id="nav-list">
         <h1 id="nav-header">Grievxus</h1>
-        <ul class="ml-auto">
-            <li>home</li>
-            <li>blog</li>
-            <li>contact</li>
-            <li>social</li>
-        </ul>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" />
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="ml-auto">
+                <li>home</li>
+                <li>blog</li>
+                <li>contact</li>
+                <li>social</li>
+            </ul>
+        </div>
     </nav>
 
-    <div class="text-center" id="header-bg">
+    <div class="text-center row-cols-12" id="header-bg">
         <h1 class="display-1">
             Hello, World
         </h1>
@@ -53,7 +61,7 @@
             About Us
         </h2>
 
-        <p class="p-5">
+        <p class="p-sm-3 para-margin p-lg-5">
             Nunc sed ante a ex ullamcorper aliquam in at risus. Mauris dignissim dui turpis, non viverra felis
             pellentesque ac. Nullam nec malesuada mi. Curabitur placerat purus quam, ac imperdiet odio gravida vitae.
             Aliquam a enim et turpis pharetra facilisis vel a tortor. Fusce bibendum, velit et egestas eleifend, nunc
@@ -72,29 +80,43 @@
             <li class="col-lg-3 col-sm-12 float-left mx-auto p-0">
                 <img src="images/nigel-tadyanehondo--RRwUNRptzY-unsplash.jpg" alt="selfieGeorge" id="selfie-image" />
                 <h5 class="my-4">george</h5>
-                <p class="text-break text-left ml-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt consectetur nibh nec euismod.
+                <p class="text-break m-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                    tincidunt consectetur nibh nec euismod.
                     Donec ut lacinia nisi. Vestibulum dictum dictum nisi, eget consectetur lectus volutpat vulputate.
                 </p>
             </li>
 
             <li class="col-lg-3 col-sm-12 mx-auto p-0">
-                <img src="images/janko-ferlic-specialdaddy-qzDF5PNEWKc-unsplash.jpg" alt="selfieJanko" id="selfie-image" />
+                <img src="images/janko-ferlic-specialdaddy-qzDF5PNEWKc-unsplash.jpg" 
+                     alt="selfieJanko"
+                     id="selfie-image" />
                 <h5 class="my-4">Jank</h5>
-                <p class="text-break text-left ml-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt consectetur nibh nec euismod.
+                <p class="text-break m-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                    tincidunt consectetur nibh nec euismod.
                     Donec ut lacinia nisi. Vestibulum dictum dictum nisi, eget consectetur lectus volutpat vulputate.
                 </p>
             </li>
 
             <li class="col-lg-3 col-sm-12 float-right mx-auto p-0">
-                <img src="images/tikkho-maciel-Oed8cpob9VM-unsplash.jpg" alt="selfieTik" id="selfie-image" />
+                <img src="images/tikkho-maciel-Oed8cpob9VM-unsplash.jpg" 
+                     alt="selfieTik" 
+                     id="selfie-image" 
+                     />
                 <h5 class="my-4">Tik</h5>
-                <p class="text-break text-left ml-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt consectetur nibh nec euismod.
+                <p class="text-break m-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                    tincidunt consectetur nibh nec euismod.
                     Donec ut lacinia nisi. Vestibulum dictum dictum nisi, eget consectetur lectus volutpat vulputate.
                 </p>
             </li>
 
         </ul>
     </div>
+
+    <footer>
+        <div class="bg-dark p-4 mt-5">
+            <p disabled="true">Copyright 2019 Gino Villalpando, All Right Reserved</p>
+        </div>
+    </footer>
 
 
 

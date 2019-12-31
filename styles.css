@@ -37,11 +37,18 @@ li {
 
 @media (max-width: 750px) {
     body {
-        font-size: 14px;
+        font-size: 24px;
     }
 }
 
 .display-1 {
     position: relative!important;
     top: 25%!important;
+}
+
+
+@media (max-width: 500px) {
+    .para-margin {
+        margin-top: 8rem!important;
+    }
 }
