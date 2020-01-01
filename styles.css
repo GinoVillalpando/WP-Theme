@@ -27,7 +27,7 @@ body {
 }
 
 .selfieGeorge {
-    background: url('images/nigel-tadyanehondo--RRwUNRptzY-unsplash.jpg')no-repeat center center fixed;
+    background: url('images/nigel-tadyanehondo--RRwUNRptzY-unsplash.jpg') fixed;
     height: 250px;  
     background-size: cover;
     background-position-y: -375px;
