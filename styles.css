@@ -71,3 +71,27 @@ li {
     background-position-y: -50px;
     background-position-x: 500px;
 }
+
+@media (max-width: 990px) {
+    .selfieGeorge {
+        background: url('images/nigel-tadyanehondo--RRwUNRptzY-unsplash.jpg')no-repeat center center fixed;
+        height: 250px;  
+        background-size: cover;
+        background-position-y: center;
+        background-position-x: center;
+    }
+
+    .selfieJank {
+        background: url('images/janko-ferlic-specialdaddy-qzDF5PNEWKc-unsplash.jpg')no-repeat center center fixed;
+        height: 250px;  
+        background-size: cover;
+        background-position-y: center;
+    }
+
+    .selfieTikk {
+        background: url('images/tikkho-maciel-Oed8cpob9VM-unsplash.jpg')no-repeat center center fixed;
+        height: 250px;
+        background-size: cover;
+        background-position-y: center;
+    }
+}
