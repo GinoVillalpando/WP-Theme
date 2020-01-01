@@ -26,9 +26,12 @@ body {
     margin-left: 2rem!important;
 }
 
-#selfie-image {
-    height: 200px;
-    size: cover;
+.selfieGeorge {
+    background: url('images/nigel-tadyanehondo--RRwUNRptzY-unsplash.jpg')no-repeat center center fixed;
+    height: 250px;  
+    background-size: cover;
+    background-position-y: -375px;
+    background-position-x: -475px;
 }
 
 li {
@@ -51,4 +54,20 @@ li {
     .para-margin {
         margin-top: 8rem!important;
     }
+}
+
+
+.selfieJank {
+    background: url('images/janko-ferlic-specialdaddy-qzDF5PNEWKc-unsplash.jpg')no-repeat center center fixed;
+    height: 250px;  
+    background-size: cover;
+    background-position-y: -475px;
+}
+
+.selfieTikk {
+    background: url('images/tikkho-maciel-Oed8cpob9VM-unsplash.jpg')no-repeat center center fixed;
+    height: 250px;
+    background-size: cover;
+    background-position-y: -50px;
+    background-position-x: 500px;
 }
